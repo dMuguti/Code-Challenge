@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="menu">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a class="tab-links active-link" onclick="opentab('grades')">Grade Generator</a></li>
+                    <li><a class="tab-links" onclick="opentab('speed')">Speed Detector</a></li>
+                    <li><a class="tab-links" onclick="opentab('demerits')">Net Salary Calculator</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <!----------GRADES---------->
+    <div id="grades" class="tab-contents active-tab">
+        <div class="container">
+                <h1>Student Grade</h1>
+                Marks: <input type="text" id="myText" value="">
+
+<p>Click the button to show your grade</p>
+
+<button onclick="myFunction()">Show Grade</button>
+
+<div id="grade"></div>
+
+        
+        </div>
+    </div>
+
+    <div id="speed" class="tab-contents">
+        <div class="container">
+    <h1>Speed Detector</h1>
+
+    <!----------SPEED DETECTOR------------>
+    Speed: <input type="text" id="speedvalue" value="">
+
+    <p>Click the button to proceed</p>
+    
+    <button onclick="mySpeedFunction()">Continue</button>
+    <div id="demeritsr">
+        
+    </div>
+</div>
+</div>
+
+
+<div id="demerits" class="tab-contents">
+    <div class="container">
+        <h1>Salary Calculator</h1>
+    
+        <!----------SPEED DETECTOR------------>
+        Basic Salary: <input type="text" id="basic_salary" value="">
+        Benefits: <input type="text" id="benefits" value="">
+    
+        <p>Click the button to proceed</p>
+        
+        <button onclick="mySalaryFunction()">Continue</button>
+        <div id="salary_result"></div>
+    </div> 
+</div>
+    <!----------NSS, NHIF, KRA------------>
+
+
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+<script>
+
+</script>
+</html>
