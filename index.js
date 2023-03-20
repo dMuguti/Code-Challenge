@@ -1,3 +1,4 @@
+// Grades
 function myFunction() {
     let marks = document.getElementById("myText").value;
     let grade = "D";
@@ -13,6 +14,7 @@ function myFunction() {
     document.getElementById('grade').innerHTML = 'Your grade is: ' + grade;
 }
 
+// Speed Detector
 function mySpeedFunction(){
     let speed = document.getElementById("speedvalue").value;
 
@@ -33,6 +35,7 @@ if (speed < 70) {  // check if the speed is less than 70 km/h
 }
 }
 
+// Net salary calculator
 function mySalaryFunction(){
 
 const KRA_RATE = 0.3;
