@@ -4,6 +4,9 @@
 ****
 ## Project Description
 Code Challenge
+ 1. Grading System
+ 2. Speed Detector
+ 3. Net Salary Calculator
 ******
 
 ## SCREENSHOTS
@@ -42,21 +45,19 @@ Then run server with the above command
 Or you can access the web application directly via this [LINK.](link.com/)
 *****
 ## Dependencies
-- Package Name
-- Package Name
-- Package Name
-- Package Name
+Google chrome
+
+
 *****
 ## Technologies Used
 1. HTML
-2. MdBootstrap
-3. HTML
-4. CSS
-5. JavaScript
+2. HTML
+3. CSS
+4. JavaScript
 *****
 ## Contact Information
-* Email : example@gmail.com
+omiahderek56@gmail.com
 *****
 ## [License](LICENSE)
 MIT License
-Copyright (c) YEAR Author
+Copyright (c) 2023 Derek Muguti
